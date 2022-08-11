@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&family=Caveat&family=Alegreya&family=Oswald&family=Russo+One&family=Alegreya+Sans&family=Merriweather&family=Merriweather+Sans&family=Nunito&family=Nunito+Sans&family=Quattrocento&family=Quattrocento+Sans&family=Roboto&family=Roboto+Mono&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+    </header>
+    <nav>
+        <div class="nav-parent-div">
+            <div class="nav-logo-div"><strong>Telese Custom Decks</strong></div>
+            <div class="nav-container">
+                <div class="nav-div"><a class="navbutton" href="">Home</a></div>
+                <div class="nav-div"><a class="navbutton" href="">View Our Work</a></div>
+                <div class="nav-div"><a class="navbutton" href="">About</a></div>
+                <div class="nav-div"><a class="navbutton" href="">Contact Us</a> </div>
+            </div>
+        </div>
+    </nav>
+    <div class="home-container">
+        <div class="home-content-image">
+            <div class="home-quote">
+                <h1>"Custom made, by us, for you."</h1>
+            </div>
+            <div class="home-quote-extra">
+                <p>Decks</p> 
+                <p>Fences</p> 
+                <p>Renovations</p> 
+                <p>Finish Carpentry</p>
+            </div>
+
+        </div>
+        <div class="home-content">
+			<h2> Title for this Section </h2>
+			<p>Based in X, Telese Custom Decks has had the pleasure of serving the Bay Shore community for over N years.</p>
+        </div>
+        <div class="home-content">
+			<p> NOTE: Planning on adding an image behind each of these buttons below. </p>
+            <div class="content-divs-container">
+                <div class="content-divs-selectors" style="background-color:brown">
+                    <p>Who We Are</p>
+                </div>
+                <div class="content-divs-selectors" style="background-color:chocolate">
+                    <p>See Our Work</p>
+                </div>
+                <div class="content-divs-selectors" style="background-color: coral;">
+                    <p>Contact Us</p>
+                </div>
+        
+
+            </div>
+        </div>
+        <div class="home-parallax">
+            <p>Title</p>
+        </div>
+        <div class="home-content">
+            <h3>QUESTIONS?</h3>
+            <div class="faq-container">
+                <div class="faq-content">
+                    <strong>Question 1</strong>
+                    <p>Really clear and descriptive answer for the question</p>
+                </div>
+                <div class="faq-content">
+                    <strong>Question 2</strong>
+                    <p>Really clear and descriptive answer for the question</p>
+                </div>
+                <div class="faq-content">
+                    <strong>Question 3</strong>
+                    <p>Really clear and descriptive answer for the question</p>
+                </div>
+            </div>
+            <div>
+                <h5>Not what you're looking for?</h5>
+            </div>
+            <p><a href="www.google.ca" style="color: rgb(68, 68, 255);">Contact us.</a></p>
+        </div>
+        <div class="home-content-image-topdown">
+            <p> This is an example photo to demonstrate the difference between a portrait and landscape oriented photo.</p>
+			<p> On a phone, this will look fine, however on a computer or a device with a larger screen, the image will appear low quality.</p>
+			<p> To avoid this, just take some pictures with the phone sideways so the pictures are wider. </p>
+        </div>
+    </div>
+</body>
+</html>
