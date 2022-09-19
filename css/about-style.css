@@ -1,0 +1,281 @@
+
+/*
+Goes with cover image
+#182e42
+*/
+
+* {
+    --antique-ruby: #8b2635ff;
+    --artichoke: #a2a77fff;
+    --hunter-green: #345830ff;
+    --prussian-blue: #182e42ff;
+    --pale-cerulean: #93bedfff;
+}
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    background-color: #a2a77fff;
+    min-height: 200vh;
+}
+header {
+    min-width: 100%;
+    
+}
+nav {
+    min-width: 100%;
+    top: 0vh;
+    position: sticky;
+}
+.nav-upper-fill {
+    min-height: 30vh;
+
+    /* Temporary Stuff for Classifying Blocks */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+    background: url('../img/home-cover.png') no-repeat center;
+    overflow: hidden;
+    background-size: auto;
+}
+.nav-parent-div {
+    display: flex;
+    flex-direction: row;
+    min-height: 4vh;
+    min-width: 100%;
+    justify-content: space-between;
+    background-color: #182e42;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    
+}
+.nav-div {
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.navbutton {
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    background-color: #182e42;
+    border: 2px solid #182e42;
+    color: white;
+    font: 1em sans-serif;
+    text-decoration: none;
+    transition-duration: 0.25s;
+}
+.navbutton:hover {
+    background-color: #8b2635;
+    color: white;
+    border: 2px solid #182e42;
+}
+h1 {
+    margin: 0 auto;
+}
+
+.nav-logo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vh;
+    color: white;
+    background-color: #8b2635;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+
+
+.home-parallax > p {
+    background-color: #345830;
+    opacity: 0.6;
+    font-size: large;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+}
+.home-parallax {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: url('../img/front-page/background/worker-hole-hd.jpg') no-repeat top;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 600px;
+    width: 100%;
+
+}
+.home-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #182e42;
+    max-width: 1480px;
+    min-width: 100%;
+}
+
+.home-content {
+    margin: 0 auto;
+    padding: 0 auto;
+    min-width: 100%;
+    min-height: 400px;
+    background-color: #182e42;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.home-content-image {
+    background: url('../img/front-page/background/backyard-cool-hd.jpg') no-repeat bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    min-width: 100%;
+    min-height: 96vh;
+    font-family: 'Inter';
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    font-size: 2rem;
+}
+.home-content-image-topdown {
+    background: url('../img/front-page/background/deck-topdown-hd.jpg') no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    min-width: 100%;
+    min-height: 96vh;
+
+}
+.home-quote {
+    padding: 0 auto;
+    margin-bottom: 15vh;
+    box-shadow: 0px 0px 12px 12px rgba(0, 0, 0, .6);
+    border-radius: 25;
+    background-color: rgba(0, 0, 0, .6);
+    font-family: 'Caveat', monospace;
+    letter-spacing: 2px;
+    text-align: center;
+    content: '"Custom made, by us, for you."';
+}
+.home-quote > p {
+    font-size:3rem;
+    color: white;
+    margin: 0 auto;
+    
+}
+.home-quote-extra {
+    margin-top: 6vh;
+    display: flex;
+    flex-direction: row;
+    gap: 5vw;
+    color: white;
+    box-shadow: 0px 0px 12px 12px rgba(12, 12, 12, .6);
+    background-color: rgba(12, 12, 12, .6);
+}
+.home-quote-extra > p {
+    margin: 0 auto;
+}
+
+
+
+.content-divs-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 400px;
+}
+
+.content-divs-selectors-who {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: .25s;
+    background-color:brown;
+
+    background: url('../img/front-page/buttons/who-we-are.jpg') no-repeat center;
+    background-size: contain;
+}
+.content-divs-selectors-work {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: .25s;
+    background-color:chocolate;    
+
+    background: url('../img/front-page/buttons/see-our-work.jpg') no-repeat center;
+    background-size: contain;
+}
+.content-divs-selectors-contact {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: .25s;
+    background-color: coral;
+
+    background: url('../img/front-page/buttons/contact-us.jpg') no-repeat center;
+    background-size: contain;
+}
+
+
+
+.content-divs-selectors-who:hover {
+    transform: scale(1.05);
+}
+.content-divs-selectors-work:hover {
+    transform: scale(1.05);
+}
+.content-divs-selectors-contact:hover {
+    transform: scale(1.05);
+}
+
+
+.faq-container {
+    display: flex;
+    flex-direction: row;
+}
+
+h5 {
+    margin-top: 100px;
+}
+.faq-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    flex-direction: column;
+    text-align: center;
+}

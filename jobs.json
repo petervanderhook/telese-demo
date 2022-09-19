@@ -1,0 +1,7 @@
+[
+    {
+        "title": "test job title",
+        "description": "This job took lots of work to complete.",
+        "images": ["./img/work/1/preview.jpg", "./img/work/1/1.jpg", "./img/work/1/2.jpg"]
+    }
+]
