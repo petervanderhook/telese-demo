@@ -1,4 +1,4 @@
-const workRequest = new Request("work.json");
+const workRequest = new Request("jobs.json");
 
 fetch(workRequest)
     .then(response => {
