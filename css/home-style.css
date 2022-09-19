@@ -12,9 +12,12 @@ Goes with cover image
     --pale-cerulean: #93bedfff;
 }
 
-
+html {
+    overflow-x: hidden;
+}
 
 body {
+    overflow-x: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
