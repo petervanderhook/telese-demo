@@ -1,6 +1,5 @@
 const workRequest = new Request("jobs.json");
 const container = document.getElementById("viewbox-container")
-const base_work_container = document.getElementById("work-container")
 const parent = document.getElementsByClassName('viewbox')[0];
 let json_data = []
 
@@ -40,7 +39,7 @@ fetch(workRequest)
             }
 
             json_data = response
-            load_page("deck")
+            load_page("other")
 
         })
         /*
@@ -63,7 +62,6 @@ for (let i=0;i<close_buttons.length;i++) {
 }
 
 function load_page(type) {
-    document.getElementById('work-container').innerHTML = ' '
     let wanted_jobs = json_data.reduce((result, entry) => {
         if (entry.type === type) {
             document.getElementById('work-container').appendChild(create_job(entry))
@@ -85,17 +83,6 @@ function create_job(entry) {
     
     new_job.addEventListener('click', () => {
         parent.style.display = 'flex'
-        const img_container = parent.querySelectorAll('img')
-        console.log("entry:", entry.images)
-        console.log(entry.images)
-        if (entry.images.length > 0) {
-            console.log("Large")
-            img_container[0].src = `${entry.images[0]}`
-        }
-        else {
-            console.log("small")
-            img_container[0].src = './img/unavailable.png'
-        }
     })
     let new_hover_element = document.createElement('div')
     new_hover_element.className = 'work-container-job-color'

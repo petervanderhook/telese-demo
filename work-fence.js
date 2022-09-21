@@ -40,7 +40,7 @@ fetch(workRequest)
             }
 
             json_data = response
-            load_page("deck")
+            load_page("fence")
 
         })
         /*
@@ -87,15 +87,8 @@ function create_job(entry) {
         parent.style.display = 'flex'
         const img_container = parent.querySelectorAll('img')
         console.log("entry:", entry.images)
-        console.log(entry.images)
-        if (entry.images.length > 0) {
-            console.log("Large")
-            img_container[0].src = `${entry.images[0]}`
-        }
-        else {
-            console.log("small")
-            img_container[0].src = './img/unavailable.png'
-        }
+        console.log(img_container[0])
+        img_container[0].src = `${entry.images[0]}`
     })
     let new_hover_element = document.createElement('div')
     new_hover_element.className = 'work-container-job-color'

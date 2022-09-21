@@ -145,12 +145,13 @@ h1 {
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
-    background: url(../img/work/decks/deck-cover-hd.jpg) no-repeat bottom;
+    background: url(../img/work/fences/fence-cover-hd.jpg) no-repeat top;
     background-attachment: fixed;
     background-size: cover;
     height: 95vh;
     width: 100%;
 }
+
 #work-container {
     min-width: 100vw;
     display: flex;
@@ -224,7 +225,7 @@ h1 {
 }
 
 .viewbox-img > img {
-    color: white;;
+    color: white;
 }
 
 .viewbox-content-container {
@@ -300,7 +301,6 @@ h1 {
     align-items: center;
     border-radius: 8px;
 }
-
 .seperator {
     min-width: 100vw;
     min-height: 6px;
