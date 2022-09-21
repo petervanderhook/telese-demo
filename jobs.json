@@ -3,7 +3,7 @@
         "title": "test job title",
         "type": "deck",
         "description": "This job took lots of work to complete.",
-        "images": ["./img/work/decks/1/preview.jpg", "./img/work/decks/1/1.jpg", "./img/work/decks1//2.jpg"]
+        "images": ["./img/work/decks/1/preview.jpg", "./img/work/decks/1/1.jpg", "./img/work/decks/1/2.jpg"]
     },
     {
         "title": "second job title",

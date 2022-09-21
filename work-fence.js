@@ -43,11 +43,6 @@ fetch(workRequest)
             load_page("fence")
 
         })
-        /*
-        console.log(response[0].title)
-        console.log(response[0].description)
-        console.log(response[0].images)
-        */
     })
     .catch(error => {
         console.error(error);
@@ -72,7 +67,6 @@ function load_page(type) {
         return result
     }, [])
 
-    console.log(wanted_jobs)
 }
 
 function create_job(entry) {
@@ -81,14 +75,46 @@ function create_job(entry) {
     new_job.style.backgroundImage = `url(${entry.images[0]})`
     new_job.style.backgroundSize = 'cover'
     new_job.style.backgroundPosition = 'center'
-    console.log(entry.images[0])
     
     new_job.addEventListener('click', () => {
         parent.style.display = 'flex'
+        let current_image_index = 0
         const img_container = parent.querySelectorAll('img')
         console.log("entry:", entry.images)
-        console.log(img_container[0])
-        img_container[0].src = `${entry.images[0]}`
+        if (entry.images.length > 0) {
+            img_container[0].src = `${entry.images[current_image_index]}`
+            /* content-left-arrow, content-right-arrow */
+            const left_arrow = document.querySelector('.content-left-arrow')
+            const right_arrow = document.querySelector('.content-right-arrow')
+            console.log(left_arrow, right_arrow)
+
+            left_arrow.addEventListener('click', () => {
+                console.log(`Previous image index: ${current_image_index}`)
+                current_image_index -= 1
+                console.log(current_image_index)
+                if (current_image_index < 0) {
+                    // If you pass over to -1 index value, add the length of the array to index value before setting source
+                    current_image_index += entry.images.length
+                }
+                img_container[0].src = `${entry.images[current_image_index]}`
+
+            })
+            right_arrow.addEventListener('click', () => {
+                console.log(`Previous image index: ${current_image_index}`)
+                current_image_index += 1
+                console.log(current_image_index)
+                if (current_image_index >= entry.images.length) {
+                    // If you pass over to -1 index value, add the length of the array to index value before setting source
+                    current_image_index -= entry.images.length
+                }
+                img_container[0].src = `${entry.images[current_image_index]}`
+
+            })
+
+        }
+        else {
+            img_container[0].src = './img/unavailable.png'
+        }
     })
     let new_hover_element = document.createElement('div')
     new_hover_element.className = 'work-container-job-color'
