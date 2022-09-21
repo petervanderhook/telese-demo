@@ -152,7 +152,7 @@ h1 {
     width: 100%;
 }
 #work-container {
-    min-width: 100vw;
+    min-width: 100%;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -302,7 +302,7 @@ h1 {
 }
 
 .seperator {
-    min-width: 100vw;
+    min-width: 100%;
     min-height: 6px;
     background-color: #13212f54;
 }
