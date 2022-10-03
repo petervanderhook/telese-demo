@@ -20,7 +20,7 @@ body {
     align-items: center;
     margin: 0px;
     padding: 0px;
-    background-color: rgb(60, 103, 55);
+    background-color: var(--prussian-blue);
     min-height: 200vh;
 }
 header {
@@ -30,7 +30,7 @@ header {
 nav {
     min-width: 100%;
     top: 0vh;
-    position: sticky;
+    position: fixed;
 }
 .nav-upper-fill {
     min-height: 30vh;
@@ -104,6 +104,7 @@ h1 {
 }
 
 .work-title {
+    margin-top: 5vh;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -122,16 +123,16 @@ h1 {
 }
 
 .work-quicklink-button {
+    background-color: #203d58;
     display: flex;
     min-width: 12vw;
     height: 50px;
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    background-color: #345830ff;
     color: white;
-    border-radius: 8px;
-    transition-duration: 0.25s;
+    border-radius: 3px;
+    transition-duration: 0.15s;
     text-decoration: none;
 }
 .work-quicklink-button:hover {
@@ -145,7 +146,7 @@ h1 {
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
-    background: url(../img/work/decks/deck-cover-hd.jpg) no-repeat bottom;
+    background: url(../img/work/decks/deck-cover-hd.jpg) no-repeat center;
     background-attachment: fixed;
     background-size: cover;
     height: 95vh;
@@ -167,7 +168,7 @@ h1 {
     height: 100%;
     margin: 0;
     font-family: 'Roboto Mono', monospace;
-    transition: all 0.25s linear;
+    transition: all 0.1s linear;
 }
 .work-container-job:hover {
     opacity: 0.8;
@@ -195,7 +196,7 @@ h1 {
     left: 0;
     width: 100%;
     height: 100vh;
-    background-color: #42121ae2;
+    background-color: #6c58868f;
     z-index: 9999;
     display: flex;
     justify-content: center;
@@ -259,6 +260,10 @@ h1 {
     
 }
 .content-title {
+    margin: 0%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     font-family: 'Roboto Mono', monospace;
     font-size: large;
     color: white;
@@ -269,6 +274,7 @@ h1 {
     font-size: large;
     color: white;
     height: 75%;
+    padding: 1rem;
 }
 .content-arrows-container {
     display: flex;

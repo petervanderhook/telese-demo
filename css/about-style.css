@@ -20,8 +20,7 @@ body {
     align-items: center;
     margin: 0px;
     padding: 0px;
-    background-color: #a2a77fff;
-    min-height: 200vh;
+    background-color: var(--prussian-blue);
 }
 header {
     min-width: 100%;
@@ -30,7 +29,7 @@ header {
 nav {
     min-width: 100%;
     top: 0vh;
-    position: sticky;
+    position: fixed;
 }
 .nav-upper-fill {
     min-height: 30vh;
@@ -49,7 +48,7 @@ nav {
 .nav-parent-div {
     display: flex;
     flex-direction: row;
-    min-height: 4vh;
+    min-height: 5vh;
     min-width: 100%;
     justify-content: space-between;
     background-color: #182e42;
@@ -278,4 +277,47 @@ h5 {
     margin-right: 3vw;
     flex-direction: column;
     text-align: center;
+}
+h2 {
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 0px;
+}
+
+.about-container {
+    background-color: var(--prussian-blue);
+    width: 80vw;
+    font-family: 'Robot Mono', monospace;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    padding: 2rem;
+}
+.question-container {
+    background-color: #16283a;
+    margin: 1rem;
+}
+
+.question {
+    display: flex;
+    flex-direction: row;
+    font-size: larger;
+    gap: 2rem;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.answer {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.para {
+    font-size: xx-large;
+    font-family: 'Arial', monospace;
+    margin: 0px;
 }

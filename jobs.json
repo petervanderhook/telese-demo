@@ -1,21 +1,108 @@
 [
     {
-        "title": "test job title",
+        "title": "Deck with Renovation",
         "type": "deck",
-        "description": "This job took lots of work to complete.",
-        "images": ["./img/work/decks/1/preview.jpg", "./img/work/decks/1/1.jpg", "./img/work/decks/1/2.jpg"]
+        "description": "Info About Job",
+        "images": ["./img/work/decks/1/1.jpg", "./img/work/decks/1/2.jpg", "./img/work/decks/1/3.jpg", "./img/work/decks/1/4.jpg"]
     },
     {
-        "title": "second job title",
+        "title": "Elevated Deck with Stairs",
         "type": "deck",
-        "description": "This job was pretty quick to make.",
-        "images": []
+        "description": "Info About Job",
+        "images": ["./img/work/decks/2/1.jpg", "./img/work/decks/2/2.jpg", "./img/work/decks/2/3.jpg", "./img/work/decks/2/4.jpg", "./img/work/decks/2/5.jpg", "./img/work/decks/2/6.jpg", "./img/work/decks/2/7.jpg", "./img/work/decks/2/8.jpg"]
+    },
+    {
+        "title": "Front Deck with Stairs",
+        "type": "deck",
+        "description": "Info About Job",
+        "images": ["./img/work/decks/3/1.jpg", "./img/work/decks/3/2.jpg"]
+    },
+    {
+        "title": "Backyard Deck",
+        "type": "deck",
+        "description": "Info About Job",
+        "images": ["./img/work/decks/4/1.jpg", "./img/work/decks/4/2.jpg", "./img/work/decks/4/3.jpg", "./img/work/decks/4/4.jpg", "./img/work/decks/4/5.jpg"]
+    },
+    {
+        "title": "Front Deck Entrance",
+        "type": "deck",
+        "description": "Info About Job",
+        "images": ["./img/work/decks/5/1.jpg", "./img/work/decks/5/2.jpg", "./img/work/decks/5/3.jpg"]
+    },
+    {
+        "title": "Frontyard to Backyard Deck",
+        "type": "deck",
+        "description": "Info About Job",
+        "images": ["./img/work/decks/6/1.jpg", "./img/work/decks/6/2.jpg", "./img/work/decks/6/3.jpg", "./img/work/decks/6/4.jpg", "./img/work/decks/6/5.jpg"]
     },
     {
         "title": "Fence and Pool",
         "type": "fence",
-        "description": "Client wanted fence installed around yard and area cleared on the property for installation of a pool.",
+        "description": "Family wanted fence installed around yard and area cleared on the property for installation of a pool.",
         "images": ["img/work/fences/1/1.jpg", "./img/work/fences/1/2.jpg", "./img/work/fences/1/3.jpg"]
+    },
+    {
+        "title": "Renovation with Pool and Deck",
+        "type": "reno",
+        "description": "Info About Job",
+        "images": ["./img/work/renos/1/1.jpg", "./img/work/renos/1/2.jpg", "./img/work/renos/1/3.jpg", "./img/work/renos/1/4.jpg"]
+    },
+    {
+        "title": "Front Porch Entrance",
+        "type": "porch",
+        "description": "Info About Job",
+        "images": ["./img/work/porches/3/1.jpg", "./img/work/porches/3/2.jpg", "./img/work/porches/3/3.jpg"]
+    },    
+    {
+        "title": "Cozy Front Porch",
+        "type": "porch",
+        "description": "Info About Job",
+        "images": ["./img/work/porches/2/1.jpg", "./img/work/porches/2/2.jpg", "./img/work/porches/2/3.jpg", "./img/work/porches/2/4.jpg"]
+    },
+    {
+        "title": "Covered Porch Entrance",
+        "type": "porch",
+        "description": "Info About Job",
+        "images": ["./img/work/porches/1/1.jpg", "./img/work/porches/1/2.jpg", "./img/work/porches/1/3.jpg", "./img/work/porches/1/4.jpg"]
+    },
+    {
+        "title": "Backyard Low Deck",
+        "type": "deck",
+        "description": "Info About Job",
+        "images": ["./img/work/decks/7/1.jpg", "./img/work/decks/7/2.jpg", "./img/work/decks/7/3.jpg", "./img/work/decks/7/4.jpg"]
+    },
+    {
+        "title": "Small Front Deck with Stairs",
+        "type": "deck",
+        "description": "Info About Job",
+        "images": ["./img/work/decks/8/1.jpg", "./img/work/decks/8/2.jpg", "./img/work/decks/8/3.jpg", "./img/work/decks/8/4.jpg", "./img/work/decks/8/5.jpg", "./img/work/decks/8/6.jpg"]
+    },
+    {
+        "title": "Fencing in Bridgehampton",
+        "type": "fence",
+        "description": "Info About Job",
+        "images": ["./img/work/fences/2/1.jpg", "./img/work/fences/2/2.jpg", "./img/work/fences/2/3.jpg", "./img/work/fences/2/4.jpg", "./img/work/fences/2/5.jpg", "./img/work/fences/2/6.jpg", "./img/work/fences/2/7.jpg"]
+    },
+    {
+        "title": "Trimming for Renovation",
+        "type": "reno",
+        "description": "Info About Job",
+        "images": ["./img/work/renos/2/1.jpg", "./img/work/renos/2/2.jpg", "./img/work/renos/2/3.jpg"]
+    },
+    {
+        "title": "Two New Doors",
+        "type": "reno",
+        "description": "Info About Job",
+        "images": ["./img/work/renos/3/1.jpg", "./img/work/renos/3/2.jpg", "./img/work/renos/3/3.jpg", "./img/work/renos/3/4.jpg"]
+    },
+    {
+        "title": "Attic Renovation",
+        "type": "reno",
+        "description": "Info About Job",
+        "images": ["./img/work/renos/4/1.jpg", "./img/work/renos/4/2.jpg", "./img/work/renos/4/3.jpg", "./img/work/renos/4/4.jpg", "./img/work/renos/4/5.jpg", "./img/work/renos/4/6.jpg"]
     }
 
+    
+    
+    
 ]

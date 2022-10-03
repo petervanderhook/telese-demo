@@ -1,9 +1,3 @@
-
-/*
-Goes with cover image
-#182e42
-*/
-
 * {
     --antique-ruby: #8b2635ff;
     --artichoke: #a2a77fff;
@@ -23,17 +17,19 @@ body {
     align-items: center;
     margin: 0px;
     padding: 0px;
-    background-color: #a2a77fff;
+    background-color: var(--prussian-blue);
     min-height: 200vh;
 }
 header {
     min-width: 100%;
     
 }
+
+/* Nav stuff */
 nav {
     min-width: 100%;
-    top: 0vh;
-    position: sticky;
+    top: 0;
+    position: fixed;
 }
 .nav-upper-fill {
     min-height: 30vh;
@@ -52,7 +48,7 @@ nav {
 .nav-parent-div {
     display: flex;
     flex-direction: row;
-    min-height: 4vh;
+    min-height: 5vh;
     min-width: 100%;
     justify-content: space-between;
     background-color: #182e42;
@@ -71,6 +67,9 @@ nav {
 }
 
 .navbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-left: 3vw;
     padding-right: 3vw;
     padding-top: 1vh;
@@ -103,7 +102,7 @@ h1 {
     font-family: 'Roboto Mono', monospace;
 }
 
-
+/* end of nav stuff */
 
 
 .home-parallax > p {
@@ -322,3 +321,14 @@ h5 {
     color: white;
     font-family: 'Roboto Mono', monospace;
 }
+
+.fade-in {
+    opacity: 0;
+    transition: opacity 250ms ease-in;
+}
+.fade-in.appear {
+    opacity: 1;
+    
+}
+
+
