@@ -27,6 +27,7 @@ header {
     
 }
 nav {
+    z-index: 1;
     min-width: 100%;
     top: 0vh;
     position: sticky;
@@ -132,6 +133,21 @@ h1 {
     }
     .form-box > iframe {
         width: 100%;
+    }
+    .nav-container {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .nav-logo-div {
+        display: none;
+    }
+    .navbutton {
+        font-size: small;
+        background-color: #132434;
+    }
+    .contact-container > p {
+        margin-left: 20px;
+        margin-right: 20px;
     }
 
 }

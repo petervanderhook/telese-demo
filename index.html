@@ -11,8 +11,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Inter&family=Caveat&family=Alegreya&family=Oswald&family=Russo+One&family=Alegreya+Sans&family=Merriweather&family=Merriweather+Sans&family=Nunito&family=Nunito+Sans&family=Quattrocento&family=Quattrocento+Sans&family=Roboto&family=Roboto+Mono&family=Roboto+Slab&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
-<body>
-    <header>
+<body><div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v15.0" nonce="0o0Wd7Rq"></script>    <header>
     </header>
     <nav>
         <div class="nav-parent-div">
@@ -20,7 +20,7 @@
             <div class="nav-container">
                 <div class="nav-div"><a class="navbutton" href="index.html">Home</a></div>
                 <div class="nav-div"><a class="navbutton" href="our-work.html">View Our Work</a></div>
-                <div class="nav-div"><a class="navbutton" href="about.html">About</a></div>
+                <div class="nav-div"><a class="navbutton" href="about.html">FAQ_Temporary</a></div>
                 <div class="nav-div"><a class="navbutton" href="contact-us.html">Contact Us</a> </div>
             </div>
         </div>
@@ -39,14 +39,24 @@
 
         </div>
         <div class="home-content">
-            <div class="fade-in">
-            <h2>Stuff to Fade In</h2>
-            <p> This text should fade in slowly, and introduce the front page.</p>
+            <div class="intro-container">
+                <div style="display:flex;flex-direction:column;justify-content: center;align-items: center;">
+                    <h3>Social Media</h3>
+                    <div class="fb-page" data-href="https://www.facebook.com/Telese83/" data-width="350" data-height="400" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/Telese83/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Telese83/">Telese Custom Decks corp</a></blockquote></div>
+                </div>
+                <div class="fade-in slide-left">
+                    <h2>Stuff to Fade In</h2>
+                    <p> This text should fade in slowly, and introduce the front page.</p>
+                </div>
             </div>
+            
         </div>
             <div class="outer-content-divs-container">
                 <div class="content-divs-container-upper">
-                    Lost?
+                    Start Here
+                </div>
+                <div class="content-overflow">
+
                 </div>
                 <div class="content-divs-container-lower">
                     <div class="content-divs-selectors-who">
@@ -68,22 +78,27 @@
 
             </div>
             <div class="home-content-image-topdown">
+                <div class="review-scroll">
+                    <p id="scroll-text">
+                        In here will be reviews, which will scroll in an infinite loop from right to left.
+                    </p>
+                </div>
                 
             </div>
         <div class="home-content">
             <h3>QUESTIONS?</h3>
             <div class="faq-container">
-                <div class="faq-content">
-                    <strong>Question 1</strong>
-                    <p>Really clear and descriptive answer for the question</p>
+                <div class="faq-content fade-in slide-up">
+                    <strong>Which areas do you serve and are licensed to work?</strong>
+                    <p>We are based out of Mastic Beach, New York and offer services to Suffolk and Nassau county. We have a home improvement license for Suffolk county with liability insurance so we are able to design and construct new decks which require a permit. We also provide our services to those based in Nassau county who are interested in improving an already existing deck without changing its footprint.</p>
                 </div>
-                <div class="faq-content">
-                    <strong>Question 2</strong>
-                    <p>Really clear and descriptive answer for the question</p>
+                <div class="faq-content fade-in slide-up">
+                    <strong>What sort of coverage do you have/offer?</strong>
+                    <p>We have a Home Improvement License as well as General Liability insurance. Aside from warranties that come with the materials and products, we also offer a 1 year warranty in craftsmanship.</p>
                 </div>
-                <div class="faq-content">
-                    <strong>Question 3</strong>
-                    <p>Really clear and descriptive answer for the question</p>
+                <div class="faq-content fade-in slide-up">
+                    <strong>I have a project in mind, where do we start?</strong>
+                    <p>You can start by getting in contact with us over email at <i>telesecustomdecks@gmail.com</i>, or by calling/texting us at <b>1(631)-245-4291</b>. For more contact information please fill out our <a style="text-decoration: none;color: rgb(118, 210, 238);" href="contact-us.html"><u>Contact Form.</u></a></p>
                 </div>
             </div>
             <div>
@@ -94,5 +109,6 @@
     </div>
 
     <script src="./scroll.js"></script>
+    
 </body>
 </html>
