@@ -26,10 +26,11 @@ header {
     min-width: 100%;
     
 }
+/* Nav stuff */
 nav {
     z-index: 1;
     min-width: 100%;
-    top: 0vh;
+    top: 0;
     position: fixed;
 }
 .nav-upper-fill {
@@ -68,6 +69,9 @@ nav {
 }
 
 .navbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-left: 3vw;
     padding-right: 3vw;
     padding-top: 1vh;
@@ -78,6 +82,8 @@ nav {
     font: 1em sans-serif;
     text-decoration: none;
     transition-duration: 0.25s;
+
+    cursor: pointer;
 }
 .navbutton:hover {
     background-color: #8b2635;
@@ -86,6 +92,9 @@ nav {
 }
 h1 {
     margin: 0 auto;
+    margin-top: 5vh;
+    color:white;
+    font-family: 'Roboto Mono', monospace;
 }
 
 .nav-logo-div {
@@ -100,6 +109,7 @@ h1 {
     font-family: 'Roboto Mono', monospace;
 }
 
+/* end of nav stuff */
 
 
 
@@ -283,18 +293,12 @@ h2 {
     text-align: center;
     font-size: xx-large;
     margin-bottom: 0px;
+    color: white;
+}
+h3 {
+    text-align: center;
 }
 
-.about-container {
-    background-color: var(--prussian-blue);
-    width: 80vw;
-    font-family: 'Robot Mono', monospace;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    gap: 1vh;
-    padding: 2rem;
-}
 .question-container {
     background-color: #16283a;
     margin: 1rem;
@@ -321,4 +325,64 @@ h2 {
     font-size: xx-large;
     font-family: 'Arial', monospace;
     margin: 0px;
+}
+
+.faq-container {
+    background-color: var(--prussian-blue);
+    width: 80vw;
+    font-family: 'Robot Mono', monospace;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    padding: 2rem;
+}
+.about-container {
+    background-color: #273d55;
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    gap: 40px;
+}
+
+.about-div-para {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 100%;
+}
+.article-img {
+    width: 300px;
+    height: 350px;
+    object-fit: contain;
+}
+.cover-img {
+    margin-top: 20px;
+    width: 300px; 
+    height: 300px;
+    border-radius: 50%;
+    object-fit:cover;
+}
+
+
+.medias-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    color:white;
+    gap: 50px;
+}
+.medias-container > div {
+    width: 280px;
+    display: flex;
+    flex-direction: column;
 }

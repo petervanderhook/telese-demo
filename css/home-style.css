@@ -81,6 +81,8 @@ nav {
     font: 1em sans-serif;
     text-decoration: none;
     transition-duration: 0.25s;
+
+    cursor: pointer;
 }
 .navbutton:hover {
     background-color: #8b2635;
@@ -185,11 +187,22 @@ h1 {
     display: flex;
     flex-direction:row;
     align-items:center;
-    justify-content:space-evenly;
-    width: 100%;
+    justify-content:center;
     height: 350px;
-    padding-left:100px;
-    padding-right:100px;
+    width: 100%;
+}
+.intro-left-div {
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width:max-content;
+}
+.intro-right-div {
+    max-width: 50%;
+}
+.h3 {
+    text-align: center;
 }
 .home-quote {
     padding: 0 auto;
@@ -328,7 +341,7 @@ h5 {
 }
 .faq-content {
     width: 100%;
-    height: 100%;
+    height:100%;
     display: flex;
     margin-left: 3vw;
     margin-right: 3vw;
@@ -400,7 +413,20 @@ h5 {
 .slide-left.appear {
     transform: translate(0px, 0px);
 }
-
+.phone-button {
+    background-color: #345830;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color:aliceblue;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.phone-button:hover {
+    background-color: #3a6336;
+}
 .review-scroll {
     display: flex;
     flex-direction: row;

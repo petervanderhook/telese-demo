@@ -26,11 +26,12 @@ header {
     min-width: 100%;
     
 }
+/* Nav stuff */
 nav {
     z-index: 1;
     min-width: 100%;
-    top: 0vh;
-    position: sticky;
+    top: 0;
+    position: fixed;
 }
 .nav-upper-fill {
     min-height: 30vh;
@@ -68,6 +69,9 @@ nav {
 }
 
 .navbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding-left: 3vw;
     padding-right: 3vw;
     padding-top: 1vh;
@@ -78,6 +82,8 @@ nav {
     font: 1em sans-serif;
     text-decoration: none;
     transition-duration: 0.25s;
+
+    cursor: pointer;
 }
 .navbutton:hover {
     background-color: #8b2635;
@@ -100,6 +106,7 @@ h1 {
     font-family: 'Roboto Mono', monospace;
 }
 
+/* end of nav stuff */
 
 
 .contact-container {
